@@ -1,8 +1,12 @@
+### Aurora.co Front End Developer Test
 
+Rob Bradley
+paraxia@hotmail.com
+13.01.25
 
-# Movies List
+### Movies API List
 
-A React application that lists movies, features pagination, and implements a light theme using Material-UI and CSS modules.
+A React application that lists movies, features pagination, and implements a light theme using Material-UI and CSS modules with focus on error handling.
 
 ## Features
 
@@ -11,16 +15,7 @@ A React application that lists movies, features pagination, and implements a lig
 - Light theme with smooth transitions.
 - Accessible, reusable pagination buttons.
 - Modularized code for easy maintenance.
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+- Customised Error Handling.
 
 ### Prerequisites
 
@@ -29,7 +24,17 @@ Currently, two official plugins are available:
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/movies-list.git
-   cd movies-list
+```bash
+git clone https://github.com/robbradleyrepo/movies-test.git
+cd movies-test
+npm i
+```
+
+### Notes
+
+React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
