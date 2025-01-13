@@ -28,10 +28,17 @@ A React application that lists movies, features pagination, and implements a lig
 git clone https://github.com/robbradleyrepo/movies-test.git
 cd movies-test
 npm i
+npm run dev
 ```
-React working in Vite with HMR and some ESLint rules.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+Created with
+
+```bash
+npm create vite@latest
+```
+
+React working in Vite with HMR and some ESLint rules, Axios, Material UI.
+
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ### Developer Submission Notes
@@ -45,7 +52,7 @@ Very occasionally, I did catch some http errors in browser console ONLY, which m
 Rob Bradley
 
 
-## Requirements
+## Task Requirements
 
 ### Goal
 Build a UI for an endpoint that returns a list of movies.
